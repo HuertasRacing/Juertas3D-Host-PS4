@@ -48,9 +48,10 @@ STATUS BAR
       <img src="includes/juertas.png" alt="Logo" class="hero">
     </div>
 
-    <!-- Se eliminó el </section> suelto que había aquí -->
-    
-    <section class="consolepanel">
+    <!-- NUEVO CONTENEDOR PARA LA PARTE DERECHA -->
+    <div style="display: flex; flex-direction: column; flex-grow: 1; width: 100%;">
+      
+      <section class="consolepanel">
 <pre id="console">
 ========================================
 
@@ -60,15 +61,15 @@ STATUS BAR
 
 Esperando para iniciar el Jailbreak...
 </pre>
-      
-      <!-- PIE MOVIDO AQUÍ DENTRO DEL PANEL DE LA CONSOLA -->
-      <footer style="text-align: center; margin-top: 15px; color: #ccc;">
+      </section>
+
+      <!-- EL TEXTO DEBAJO DE LA CONSOLA -->
+      <footer style="text-align: center; margin-top: 15px; color: #fff; font-size: 14px;">
           Juertas3D Host v1 • © 2026 • GitHub Edition
       </footer>
 
-    </section>
-   
- </div>
+    </div>
+  </div>
 
   <script src="src/main.js"></script>
   <script src="includes/script.js"></script>
