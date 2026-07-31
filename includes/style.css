@@ -184,3 +184,30 @@ h1 {
     height: 10px;
     border-radius: 50%; /* Asegura que siga siendo un círculo perfecto */
 }
+
+/* =========================================
+   DISEÑO DEL BOTÓN INICIAR JAILBREAK
+========================================= */
+#jeilbrek {
+    background-color: transparent; /* Fondo transparente */
+    color: #00E5FF; /* Texto azul eléctrico */
+    border: 2px solid #00E5FF; /* Borde azul eléctrico */
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+    padding: 12px 24px;
+    font-size: 16px;
+    text-transform: uppercase; /* Fuerza las letras a mayúsculas */
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Hace que los cambios sean suaves */
+    box-shadow: 0 0 10px rgba(0, 229, 255, 0.2); /* Un brillo muy sutil de base */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Efecto al pasar el ratón por encima (Hover) */
+#jeilbrek:hover {
+    background-color: #00E5FF;
+    color: #000000; /* Letras negras para que resalten sobre el fondo claro */
+    box-shadow: 0 0 15px #00E5FF, 0 0 30px #00E5FF; /* Brillo neón fuerte */
+    transform: scale(1.05); /* Hace el botón un 5% más grande */
+}
