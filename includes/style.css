@@ -166,3 +166,21 @@ h1 {
 #console {
     text-shadow: 0 0 3px rgba(0, 229, 255, 0.6);
 }
+
+/* =========================================
+   CORRECCIÓN ALINEACIÓN PILOTO ONLINE
+========================================= */
+.status-item {
+    display: flex;
+    justify-content: center; /* Centra todo en la pantalla */
+    align-items: center; /* Centra el punto y el texto verticalmente */
+    gap: 8px; /* Añade una pequeña separación entre el punto y el texto */
+    margin-bottom: 5px; /* Da un poco de aire con la línea de abajo */
+}
+
+.status-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; /* Asegura que siga siendo un círculo perfecto */
+}
