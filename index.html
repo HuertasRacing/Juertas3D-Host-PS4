@@ -48,8 +48,8 @@ STATUS BAR
       <img src="includes/juertas.png" alt="Logo" class="hero">
     </div>
 
-    <!-- Contenedor derecho ajustado para no romper el diseño -->
-    <div style="flex-grow: 1; display: block;">
+    <!-- COLUMNA DERECHA: Agrupa la consola y el texto -->
+    <div style="flex: 1; min-width: 0; display: flex; flex-direction: column;">
       
       <section class="consolepanel">
 <pre id="console">
@@ -63,10 +63,10 @@ Esperando para iniciar el Jailbreak...
 </pre>
       </section>
 
-      <!-- EL TEXTO DEBAJO DE LA CONSOLA -->
-      <footer style="text-align: center; margin-top: 10px; color: #ccc; font-size: 14px;">
+      <!-- TEXTO INFERIOR: Usamos div en lugar de footer para evadir tu CSS -->
+      <div style="text-align: center; padding-top: 15px; color: #ccc; font-size: 14px; display: block !important; position: static !important; width: 100%;">
           Juertas3D Host v1 • © 2026 • GitHub Edition
-      </footer>
+      </div>
 
     </div>
   </div>
