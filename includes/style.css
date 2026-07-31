@@ -114,3 +114,29 @@ h1 {
     font-family: 'Orbitron', sans-serif;
     font-weight: 700;
 }
+
+/* =========================================
+   BARRA DE DESPLAZAMIENTO (SCROLLBAR)
+========================================= */
+
+/* 1. Ancho de la barra */
+#console::-webkit-scrollbar {
+    width: 8px; 
+}
+
+/* 2. Fondo de la pista (por donde se desliza) */
+#console::-webkit-scrollbar-track {
+    background: #111111; /* Un gris muy oscuro, casi negro */
+    border-radius: 10px;
+}
+
+/* 3. La barra que arrastras (Thumb) */
+#console::-webkit-scrollbar-thumb {
+    background: #00E5FF; /* Tu azul eléctrico */
+    border-radius: 10px;
+}
+
+/* 4. Efecto al pasar el ratón por la barra */
+#console::-webkit-scrollbar-thumb:hover {
+    background: #00b3cc; /* Un azul ligeramente más oscuro */
+}
