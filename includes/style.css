@@ -211,3 +211,21 @@ h1 {
     box-shadow: 0 0 15px #00E5FF, 0 0 30px #00E5FF; /* Brillo neón fuerte */
     transform: scale(1.05); /* Hace el botón un 5% más grande */
 }
+
+/* =========================================
+   TÍTULO PRINCIPAL CON LOGOS LATERALES
+========================================= */
+.title-container {
+    display: flex;
+    justify-content: center; /* Centra todo en el medio de la pantalla */
+    align-items: center; /* Alinea los logos y el texto a la misma altura */
+    gap: 15px; /* Espacio de separación entre los logos y el texto */
+    margin-bottom: 5px;
+}
+
+.title-logo {
+    width: 60px; /* Tamaño del logo en miniatura */
+    height: auto; /* Mantiene las proporciones originales */
+    /* Opcional: le damos un ligero brillo morado para que resalte */
+    filter: drop-shadow(0 0 8px rgba(150, 0, 255, 0.6)); 
+}
