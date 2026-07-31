@@ -242,3 +242,30 @@ body {
     margin: 0;
     background-color: #000000;
 }
+
+/* =========================================
+   MEJORAR VISIBILIDAD DE NETCTRL, LAPSE Y AUTO JB
+========================================= */
+#kernel-options label, 
+#autoJbLabel {
+    color: #ffffff !important; /* Fuerza el texto a blanco brillante */
+    font-weight: bold; /* Letra más gruesa */
+    font-size: 16px; /* Tamaño un poco más grande */
+    letter-spacing: 1px; /* Separación de las letras para leer mejor */
+    cursor: pointer;
+    
+    /* Esto crea un contorno negro sólido y un resplandor oscuro detrás del texto */
+    text-shadow: 
+        -2px -2px 0 #000,  
+         2px -2px 0 #000,
+        -2px  2px 0 #000,
+         2px  2px 0 #000,
+         0 0 15px #000000, 
+         0 0 20px #000000;
+}
+
+/* Opcional: Separar un poco los botones entre sí para que no se amontonen */
+#kernel-options label {
+    margin-right: 15px; 
+    margin-left: 5px;
+}
