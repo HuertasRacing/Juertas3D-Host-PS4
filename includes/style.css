@@ -229,3 +229,16 @@ h1 {
     /* Opcional: le damos un ligero brillo morado para que resalte */
     filter: drop-shadow(0 0 8px rgba(150, 0, 255, 0.6)); 
 }
+
+/* =========================================
+   NUEVO FONDO DE PÁGINA 
+========================================= */
+body {
+    background-image: url('fondo_ps.png'); /* Asegúrate de que el nombre coincida con tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    margin: 0;
+    background-color: #000000;
+}
